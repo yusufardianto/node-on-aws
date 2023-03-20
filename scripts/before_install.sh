@@ -7,7 +7,7 @@
 # buat directory jika directory tidak ada
 DIR="/home/ec2-user/node-aws"
 
-if [ -d "$DIR"]; then
+if [ -d "$DIR" ]; then
     echo "${DIR} exists"
 else
     echo "Creating ${DIR} directory"

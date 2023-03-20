@@ -3,7 +3,7 @@
 
 # . ~/.nvm/nvm.sh
 # nvm install node
-
+# hahaha
 # buat directory jika directory tidak ada
 DIR="/home/ec2-user/node-aws"
 

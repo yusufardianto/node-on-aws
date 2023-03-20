@@ -24,6 +24,22 @@ app.get("/products", (req, res) => {
     },
   ]);
 });
+app.get("/user", (req, res) => {
+  res.send([
+    {
+      userId: "us001",
+      price: 100,
+    },
+    {
+      userId: "us002",
+      price: 150,
+    },
+    {
+      userId: "us003",
+      price: 100,
+    },
+  ]);
+});
 
 app.listen(port, () => {
   console.log(`Demo app is up and listening to port: ${port}`);
